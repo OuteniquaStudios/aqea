@@ -1,0 +1,4 @@
+output: test_cases_output.json
+prompt: prompts/test_case_prompt.txt
+model: ollama/mistral
+temperature: 0.7

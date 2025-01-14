@@ -1,0 +1,38 @@
+Analyze this Jira ticket:
+
+Ticket Key: {key}
+Type: {type}
+Summary: {summary}
+Description: {description}
+User Story/Business Value: {story}
+Technical Details: {technical_details}
+Acceptance Criteria: {acceptance_criteria}
+System Under Test: {system}
+
+Generate comprehensive test cases for the system under test that cover:
+1. Functional Testing
+   - Core business logic
+   - User workflow validation
+   - Integration points
+2. Technical Testing
+   - API validation
+   - Database operations
+   - Error handling
+3. Edge Cases
+   - Boundary conditions
+   - Data validation
+   - Error scenarios
+4. Performance Considerations
+   - Load handling
+   - Response times
+   - Resource usage
+
+For each test case, provide:
+- Test ID (format: {key}-TC-XX)
+- Category (Functional/Technical/Edge Case/Performance)
+- Priority (High/Medium/Low)
+- Description
+- Prerequisites
+- Test Data Requirements
+- Test Steps
+- Expected Results
