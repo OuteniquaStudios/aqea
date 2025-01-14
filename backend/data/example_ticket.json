@@ -1,0 +1,16 @@
+{
+    "tickets": [
+      {
+        "key": "PROJ-127",
+        "type": "Task",
+        "summary": "Database Performance Optimization for Policy Search",
+        "priority": "High",
+        "component": "Search",
+        "description": "Optimize database queries and indexing strategy for policy search functionality to improve response times and reduce server load during peak renewal periods.",
+        "user_story": "As an insurance agent, I want policy search results to load quickly so that I can easily find and update customer policies.",
+        "technical_details": "- Implement composite indexes for common search patterns\n- Add database query caching layer\n- Implement database connection pooling\n- Optimize JOIN operations\n- Add query execution plan monitoring\n- Implement partial indexes for frequently accessed data",
+        "acceptance_criteria": "1. Search response time < 200ms\n2. Support faceted search\n3. Handle 100 concurrent searches\n4. Proper error handling for timeouts\n5. Cache hit ratio > 80%\n6. Support sorting on multiple fields",
+        "system": "Policy Management"
+      }
+    ]
+  }
