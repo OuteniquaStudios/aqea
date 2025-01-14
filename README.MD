@@ -1,4 +1,28 @@
-# Agile Quality Engineering Assistant (AQEA)  
+# Agile Quality Engineering Assistant (AQEA)
+
+## Table of Contents
+- [Overview](#overview)
+- [Built for Privacy and Security](#-built-for-privacy-and-security)
+- [What AQEA Is and Isn't](#-what-aqea-is-and-isnt)
+- [Features](#-features)
+- [Prerequisites](#-prerequisites)
+- [Installation](#️-installation)
+  - [Backend](#backend)
+  - [Frontend](#frontend)
+- [Usage](#-usage)
+  - [CLI](#cli)
+  - [GUI](#gui)
+- [Configuration](#configuration)
+- [Real World Usage](#real-world-usage)
+- [Future Improvements](#-future-improvements)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Sponsorships](#-sponsorships)
+  - [Why Sponsor?](#-why-sponsor)
+  - [How Sponsorships Work](#-how-sponsorships-work)
+  - [Get in Touch](#-get-in-touch)
+
+## Overview
 
 Empowering Agile teams to deliver better quality software by automating test case generation with AI.  
 
@@ -132,7 +156,7 @@ The backend configuration can be adjusted in the `config.yaml` file. Key paramet
 
 ## Real World Usage
 
-See the WORKFLOW.md file for our recommended usage of this tool in your SDLC.
+See the SDLC_WORKFLOW.md file for our recommended usage of this tool in your SDLC.
 
 ## 🔮 Future Improvements
 
