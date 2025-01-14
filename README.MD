@@ -1,10 +1,32 @@
-# Agile Quality Engineering Assistant (AQEA)
+## Agile Quality Engineering Assistant (AQEA)
 
-## Overview
+**Empowering Agile teams to deliver better quality software by automating test case generation with AI.**  
 
-Agile Quality Engineering Assistant (AQEA) is an open-source tool designed to enhance the quality assurance process in Agile development environments. By leveraging AI, AQEA generates comprehensive test cases from Jira tickets (currently in JSON format), ensuring thorough coverage of functional, technical, edge cases, and performance considerations.
+In Agile development, bringing QA into the early stages of the software development lifecycle (SDLC) is key to success. AQEA was built with this principle in mind. By automating test case generation during planning meetings, when tickets are being created or groomed, AQEA ensures that quality considerations are seamlessly integrated into the development process from the start.
 
-## Features
+With AQEA, teams can:
+- Surface and refine test cases during ticket creation or grooming.
+- Enhance collaboration between QA, developers, and product owners.
+- Reduce the time spent in sprint meetings while ensuring high-quality deliverables.
+
+This tool transforms quality assurance into a proactive, collaborative process, enabling Agile teams to achieve faster delivery cycles without compromising on quality.
+
+## 🧐 What AQEA Is and Isn’t
+
+**AQEA is not designed to replace QA professionals.**  
+Instead, AQEA is built to **support** and **enhance** the work that QA teams already do, helping them become more efficient and aligned with Agile practices.
+
+Here’s why:
+
+- **Empowering QA Teams**: AQEA automates the repetitive and time-consuming task of generating test cases, freeing up QA engineers to focus on high-value activities such as exploratory testing, test strategy, and user acceptance testing.
+  
+- **Collaborative Tool**: By surfacing test cases early during planning meetings, AQEA fosters stronger collaboration between QA, developers, and product owners, ensuring that quality is integrated into the process from the start.
+
+- **Not a Replacement, But an Ally**: AQEA’s purpose is to reduce the burden on QA teams so they can focus on more complex testing activities and decision-making, rather than spending time manually creating standard test cases.
+
+- **Focus on Quality, Not Automation**: The tool provides a **starting point**, not a final solution. QA professionals still play a key role in refining, reviewing, and executing tests to ensure the highest quality standards are met.
+
+## 🚀 Features
 
 - **Automated Test Case Generation**: Generate detailed test cases directly from Jira tickets.
 - **Functional Testing**: Covers core business logic, user workflow validation, and integration points.
@@ -13,13 +35,20 @@ Agile Quality Engineering Assistant (AQEA) is an open-source tool designed to en
 - **Performance Testing**: Assesses load handling, response times, and resource usage.
 - **Real-time Collaboration**: Facilitates collaboration between developers, QA engineers, and product owners.
 
-## Installation
+## 💻 Prerequisites
+
+- Python 3.8 or higher
+- Node.js and npm
+- Windows/Linux/MacOS
+- Ollama (local LLM server)
+
+## 🛠️ Installation
 
 ### Backend
 
 1. Clone the repository:
   ```sh
-  git clone https://github.com/yourusername/aqea.git
+  git clone https://github.com/OuteniquaStudios/aqea.git
   cd aqea/backend
   ```
 
@@ -56,7 +85,7 @@ Agile Quality Engineering Assistant (AQEA) is an open-source tool designed to en
   npm run dev
   ```
 
-## Usage
+## 🎯 Usage
 
 ### CLI
 
@@ -94,14 +123,24 @@ The backend configuration can be adjusted in the `config.yaml` file. Key paramet
 
 See the WORKFLOW.md file for our recommended usage of this tool in your SDLC.
 
-## Contributing
+## 🔮 Future Improvements
+
+- [ ] Integration with Jira API
+- [ ] Export to various test management tools
+- [ ] Support for custom ticket fields
+- [ ] Batch processing with progress tracking
+- [ ] Custom prompt templates
+- [ ] Test case prioritization algorithm
+- [ ] Dockerize for easy deployment
+
+## 🤝 Contributing
 
 We welcome contributions from the community. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md) before submitting issues or pull requests.
 
-## License
+## 🔶 License
 
 This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. See the [LICENSE](LICENSE.md) file for details.
 
-## Contact
+## 📬 Contact
 
 For any questions or feedback, please contact Jonathan at jonathan@outeniquastudios.co.za.
