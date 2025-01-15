@@ -1,5 +1,4 @@
 ### **Roadmap for AQEA**
-The roadmap should outline the vision for AQEA and its key milestones. Here’s a suggested structure:
 
 #### **Phase 1: Foundation (0-3 Months)**
 - **Goal:** Build a stable and user-friendly foundation for AQEA.
